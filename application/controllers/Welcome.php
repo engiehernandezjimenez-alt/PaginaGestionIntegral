@@ -21,13 +21,8 @@ class Welcome extends CI_Controller {
 	public function index()
 	{
 		$this->load->view('welcome_message');
-		"ESTO ES UNA PRUEBA";
-<<<<<<< HEAD
-		"Prueba 2";
-=======
-		"Prueba 3";
->>>>>>> main
 	}
+	
 	public function Mensaje()
 	{
 		$this->load->view('welcome_message');
